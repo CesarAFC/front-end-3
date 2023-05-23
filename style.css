@@ -22,12 +22,13 @@ h1 {
     letter-spacing: 9px;
     padding: 4px 0;
     text-align: center;
-    background: #C4C4C4;
-    color: #005677;
 }
 h2 {
     padding: 4px 14px;
     letter-spacing: 9px;
+
+}
+h1, h2 {
     background: #C4C4C4;
     color: #005677;
 }
