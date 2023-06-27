@@ -1,4 +1,6 @@
 $color1: #E6E6E6;
+$color2: #C4C4C4;
+$color3: #005677;
 
 body {
     margin: 0;
@@ -8,14 +10,79 @@ body {
 html {
     font-family: 'Times New Roman', Times, serif;
 }
+
 header {
     background-color: $color1;
     display: flex;
     flex-direction: column;
+
+    img {
+        display: block;
+        align-self: center;
+        width: 100px;
+        height: 148px;
+    }
+
+    h1 {
+        margin: 20px 0 0;
+        letter-spacing: 9px;
+        padding: 4px 0;
+        text-align: center;
+    }
 }
-header > img {
-    display: block;
-    align-self: center;
-    width: 100px;
-    height: 148px;
+
+h2 {
+    padding: 4px 14px;
+    letter-spacing: 9px;
+    transition: 0.3s;
+
+}
+h1, h2 {
+    background: #C4C4C4;
+    color: #005677;
+}
+
+li {
+    span {
+        font-weight: 700;
+        font-style: italic;
+    }
+}
+
+section {
+    
+    dt {
+        padding-left: 20px;
+        font-weight: 700;
+        position: absolute;
+    } 
+    dd {
+        margin-left: 100px;
+    }
+    h2:hover {
+        font-size: 30px;
+        letter-spacing: 12px;
+    }
+}
+
+footer {
+    height: 30px;
+    background: #005677;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        margin: 0;
+        color: #fff;
+    }
+
+    a {
+        margin-left: 10px;
+    }
+
+    img {
+        display: block;
+    }
 }
